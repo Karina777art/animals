@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Главная</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class = "menu">
+                <nav>
+                    <a href="index.html" rel="noopener noreferrer">
+                        <img class="logo header-logo" src="images/Логотип_приют_хедер.png" alt="логотип">
+                    </a>
+                    <div class="menu-burger">
+                        <img src="images/menu-burger.svg" alt="menu-burger">
+                    </div>
+                    <ul class="menu-list">
+                            <li class="menu-list__item"><a class="menu-list__link" href="#about-us">О нас</a></li>
+                            <li class="menu-list__item"><a href="pets.html" class="menu-list__link">Наши животные</a></li>
+                            <li class="menu-list__item"><a href="typical-money.html" class="menu-list__link">Помочь нам</a></li>
+                            <li class="menu-list__item"><a href="typical-volonter.html" class="menu-list__link">Волонтерство</a></li>
+                            <li class="menu-list__item"><a href="#contacts" class="menu-list__link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="container">
+            <div class="about-us__section">
+                <div class="about-us__info info">
+                    <h1 class="heading about-us__heading">Приют для животных “Белый Ким Чёрное Ухо”</h1>
+                    <p id="about-us" class="usual-text about-us__usual-text">
+                        Добро пожаловать в наш приют! Приют получил свое название в честь одноименной книги, которая рассказывает историю о верности и дружбе. Мы заботимся о бездомных животных, предоставляя им временный или постоянный дом. Наша цель - найти каждому питомцу надежную и любящую семью. Вы можете узнать больше о наших питомцах на странице "Наши животные" и помочь нам финансово или стать волонтером. Спасибо за поддержку нашего приюта "Белый Ким Черное Ухо"!
+                    </p>
+                </div>
+                <div class="banner about-us__banner">
+
+                    <div class="about-us__animal-card animal-card">
+                        <div class="animal-card__photo">
+                            <img src="images/card__pet-Lora.png" alt="фотография" >
+                        </div>
+                        <h2 class="animal-card__description description">Лора</h2>
+                        <div class="animal-card__location">
+                            <img src="images/location-tag.png" alt="местоположение" >
+                            <p class="animal-card__medium-text medium-text">ул. Неманская 54, д. Вилейка</p>
+                        </div>
+                       
+                    </div>
+                    <form action="pets.html">
+                        <button class="button-user-action">
+                            <span class="medium-text button-user-action__medium-text">Познакомиться ближе</span>
+                            <img class="button-user-action__arrow-up arrow-up" src="images/Arrow.svg" alt="стрелка" >
+                            <img class="button-user-action__arrow-down arrow-down" src="images/Arrow-down.svg" alt="стрелка" >
+                        </button>
+                    </form>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lucky-story">
+        <div class="container">
+            <div class="lucky-story__section">
+                <h1 class="heading lucky-story__heading">Счастливые истории животных</h1>
+                <div class="lucky-story__slider slider">
+                    <div class="slider__card">
+                        <div class="slider__card__background">
+                            <img src="images/Luhic.png" alt="фото с животным" >
+                        </div>
+                        <h2 class="slider__card__heading">Лучик и Инна</h2>
+                    </div>
+                    <div class="slider__card">
+                        <div class="slider__card__background">
+                            <img src="images/Lina.png" alt="фото с животным" >
+                        </div>
+                        <h2 class="slider__card__heading">Лина и Алексей</h2>
+                    </div>
+                    <div class="slider__card">
+                        <div class="slider__card__background">
+                            <img src="images/Mari.png" alt="фото с животным" >
+                        </div>
+                        <h2 class="slider__card__heading">Мария и Барсик</h2>
+                    </div>
+                    <div class="slider__card">
+                        <div class="slider__card__background">
+                            <img src="images/Vasia.png" alt="фото с животным" >
+                        </div>
+                        <h2 class="slider__card__heading">Вася и Ангелина</h2>
+                    </div>
+                    <div class="slider__card">
+                        <div class="slider__card__background">
+                            <img src="images/John.png" alt="фото с животным" >
+                        </div>
+                        <h2 class="slider__card__heading">Джон и Евгения</h2>
+                    </div>
+                    <div class="slider__card">
+                        <div class="slider__card__background">
+                            <img src="images/Joni.png" alt="фото с животным" >
+                        </div>
+                        <h2 class="slider__card__heading">Джони и Амелия</h2>
+                    </div>
+                </div>
+                <div class="lucky-story__button-group">
+                    <button class="round-button lucky-story__button-group__round-button">
+                        <img class="arrow-up" src="images/Arrow-round-up.svg" alt="стрелка" >
+                        <img class="arrow-down" src="images/Arrow-round-down.svg" alt="стрелка" >
+                    </button>
+                    <button class="round-button lucky-story__button-group__round-button">
+                        <img class="arrow-up" src="images/Arrow-round-up.svg" alt="стрелка" >
+                        <img class="arrow-down" src="images/Arrow-round-down.svg" alt="стрелка" >
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="help-us">
+        <div class="container">
+            <div class="help-us__section">
+                <h1 class="heading help-us__heading">Как нам помочь</h1>
+                <div class="tips help-us__tips">
+                    <div class="tips__item">
+                        <div class="tips__item__photo">
+                            <img src="images/tips__wallet.svg" alt="wallet" >
+                        </div>
+                        <p class="tips__item__mini-text mini-text">Благодаря пожертвованиям мы можем обеспечивать животных качественным питанием, медицинской помощью и комфортными условиями проживания, проводить программы социализации, тренировки и поиск семей для подопечных</p>
+                        <form action="typical-money.html">
+                            <button class="tips__item__button"><span class="medium-text tips__item__button__medium-text">Денежная помощь</span></button>
+                        </form>
+                    </div>
+                    <div class="tips__item">
+                        <div class="tips__item__photo">
+                            <img src="images/tips__bone.svg" alt="bone" >
+                        </div>
+                        <p class="tips__item__mini-text mini-text">Благодаря пожертвованиям мы можем обеспечивать животных качественным питанием, медицинской помощью и комфортными условиями проживания, проводить программы социализации, тренировки и поиск семей для подопечных</p>
+                        <form action="typical-volonter.html">
+                            <button class="tips__item__button"><span class="medium-text tips__item__button__medium-text">Волонтёрство</span></button>
+                        </form>
+                    </div>
+                    <div class="tips__item">
+                        <div class="tips__item__photo">
+                            <img src="images/tips__doghouse.svg" alt="doghouse" >
+                        </div>
+                        <p class="tips__item__mini-text mini-text">Благодаря пожертвованиям мы можем обеспечивать животных качественным питанием, медицинской помощью и комфортными условиями проживания, проводить программы социализации, тренировки и поиск семей для подопечных</p>
+                        <form action="pets.html">    
+                            <button class="tips__item__button"><span class="medium-text tips__item__button__medium-text">Пушистый друг</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <nav>
+                <ul class="menu-list logo-list">
+                    <li class="menu-list__item"><a class="menu-list__link" href="index.html"><div class="footer-logo">
+                        <img src="images/Логотип_приют-футер.png" alt="логотип" >
+                    </div></a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="https://www.behance.net/karina777art" target="_blank">© Халеева Карина</a></li>
+                </ul>
+                <ul class="menu-list footer-list">
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Адрес</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Беларусь</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="https://clck.ru/374hWU=Адрес" target="_blank">ул. Неманская 54, д. Вилейка</a></li>
+                </ul>
+                <ul class="menu-list footer-list">
+                    <li class="menu-list__item"><a class="menu-list__link" href="#" id = "contacts">Контакты</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="tel:+3752554555">+3752554555</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="mailto:sobachki@gmail.com">sobachki@gmail.com
+                    </a></li>
+                </ul>
+                <ul class="menu-list footer-list">
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">Сервисы</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="typical-money.html">Помочь нам</a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="typical-volonter.html">Волонтерство</a></li>
+                </ul>
+                <ul class="menu-list footer-list">
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">
+                        <img src="images/instagram.svg" alt="" >
+                    </a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">
+                        <img src="images/facebook.svg" alt="" >
+                    </a></li>
+                    <li class="menu-list__item"><a class="menu-list__link" href="#">
+                        <img src="images/tiktok.svg" alt="" >
+                    </a></li>
+                </ul>
+                
+
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
