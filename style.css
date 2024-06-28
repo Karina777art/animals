@@ -459,6 +459,11 @@ footer .footer-list:nth-child(2) .menu-list__item:nth-child(3){
     grid-column: span 2;
     justify-self: center;
 }
+
+    .banner{
+        row-gap: 20px;
+    }
+
 @media (max-width:1200px){
     .tips{
         flex-wrap: wrap;
